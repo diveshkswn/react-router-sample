@@ -1,0 +1,35 @@
+.Login-Form {
+  width: min(400px, 70vw);
+  padding: 40px 20px;
+  margin: 10px 20px 10px 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: darkslateblue;
+  & input {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  & form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    & label {
+      display: inline-block;
+      min-width: 100px;
+      max-width: 120px;
+      text-align: left;
+      @media (max-width: 500px) {
+        display: block;
+        margin-left: 5px;
+      }
+    }
+    & button {
+      width: 80%;
+    }
+  }
+}
