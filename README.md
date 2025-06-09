@@ -109,5 +109,5 @@ Add suspense fallbacks for lazy-loaded components
 
 Improve auth guard logic in validateAuthState
 
-🧑‍💻 Author
+🧑‍💻 Author : Divesh Keswani
 Built by a software developer with a love for clean routing and fast builds.
