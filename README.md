@@ -25,9 +25,7 @@ This is a sample React app scaffolded using Vite and set up with modern React Ro
 
 📁 Project Structure
 pgsql
-Copy
-Edit
-.
+`
 ├── pages/
 │   ├── Homepage/
 │   │   └── Homepage.tsx
@@ -41,6 +39,7 @@ Edit
 ├── helper.ts
 ├── App.tsx
 └── main.tsx
+`
 🚦 Route Overview
 Root Route /
 Uses RootLayout and validateAuthState loader
@@ -60,28 +59,25 @@ Children:
 /error and fallback * → Render error page
 
 🛠️ Installation
-bash
-Copy
-Edit
+bash`
 npm install
+`
 🚀 Running the App
 bash
-Copy
-Edit
+`
 npm run dev
+`
 Open your browser at http://localhost:5173
 
 📦 Build for Production
 bash
-Copy
-Edit
+`
 npm run build
+`
 Serve with:
 
 bash
-Copy
-Edit
-npm run preview
+`npm run preview`
 🔍 Notes
 Each route can define a lazy object with Component and/or loader.
 
@@ -93,8 +89,7 @@ A fallback * route handles unmatched paths.
 
 📄 Example Loader Logic
 ts
-Copy
-Edit
+`
 loader: async ({ params }) => {
   const data = await fetchProductsById(Number(params.userId));
   if (!data) {
@@ -102,6 +97,7 @@ loader: async ({ params }) => {
   }
   return data;
 }
+`
 📚 Useful Resources
 React Router Docs
 
