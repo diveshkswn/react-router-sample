@@ -1,6 +1,13 @@
 📦 React Router App with Vite
 This is a sample React app scaffolded using Vite and set up with modern React Router features including createBrowserRouter, lazy loading of components and loaders, nested routes, error boundaries, and route-specific data fetching.
 
+![npm](https://img.shields.io/npm/v/react-router)
+![Vite](https://img.shields.io/badge/built%20with-vite-646CFF.svg?logo=vite)
+![Repo Size](https://img.shields.io/github/repo-size/diveshkswn/react-router-sample)
+![Top Language](https://img.shields.io/github/languages/top/diveshkswn/react-router-sample)
+![Code Lines](https://img.shields.io/tokei/lines/github/diveshkswn/react-router-sample)
+
+
 🧩 Features
 🔥 Vite for fast development and build
 
