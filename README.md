@@ -91,7 +91,8 @@ Errors during data fetching can redirect to an error route.
 A fallback * route handles unmatched paths.
 
 📄 Example Loader Logic
-ts
+
+typescript
 ```
 loader: async ({ params }) => {
   const data = await fetchProductsById(Number(params.userId));
